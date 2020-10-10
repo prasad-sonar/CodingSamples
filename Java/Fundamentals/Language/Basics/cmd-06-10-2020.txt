@@ -1,0 +1,26 @@
+ 1000  mkdir Java
+ 1001  cd Java
+ 1002  mkir -p Fundamentals/Language/Basics
+ 1003  mkdir -p Fundamentals/Language/Basics
+ 1004  cd Fundamentals/Language/Basics
+ 1005  vi Hello.java
+ 1006  ll
+ 1007  javac Hello.java 
+ 1008  ll
+ 1009  java Greeter
+ 1010  vi Hello.java
+ 1011  ll
+ 1012  vi Greeter.class
+ 1013  uname -om
+ 1014  cp Greeter.class ~/Shared/
+ 1015  java -version
+ 1016  sftp hb@raspberry.pi
+ 1017  ssh hb@raspberry.pi
+ 1018  vi MethodTest.java
+ 1019  javac MethodTest.java 
+ 1020  ll
+ 1021  java MethodTest 75000 3
+ 1022  vi MethodTest.java
+ 1023  javac MethodTest.java
+ 1024  java MethodTest 75000 3
+ 
