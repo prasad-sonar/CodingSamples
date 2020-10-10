@@ -1,0 +1,122 @@
+    3  cd Java/Fundamentals/Language/Inheritance/
+    4  ls *.java
+    5  vi src/SalesPerson.java 
+    6  javac -d . src/SalesPerson.java 
+    7  java SubclassTest1
+    8  vi SubclassTest1.java 
+    9  javac -d . src/SalesPerson.java 
+   10  vi src/SalesPerson.java 
+   11  javac -d . src/SalesPerson.java 
+   12  vi src/SalesPerson.java 
+   13  javac -d . src/SalesPerson.java 
+   14  java SubclassTest1
+   15  vi src/SavingsAccount.java 
+   16  javac -d . src/SavingsAccount.java 
+   17  vi src/SavingsAccount.java 
+   18  javac -d . src/SavingsAccount.java 
+   19  vi InterfaceTest3.java
+   20  javac InterfaceTest3.java
+   21  vi InterfaceTest3.java
+   22  javac InterfaceTest3.java
+   23  vi InterfaceTest3.java
+   24  javac InterfaceTest3.java
+   25  vi InterfaceTest3.java
+   26  javac InterfaceTest3.java
+   27  vi InterfaceTest3.java
+   28  javac InterfaceTest3.java
+   29  java InterfaceTest3 5
+   30  java InterfaceTest3 500
+   31  vi InterfaceTest3.java
+   32  javac InterfaceTest3.java
+   33  vi InterfaceTest3.java
+   34  javac InterfaceTest3.java
+   35  java InterfaceTest3 5
+   36  java InterfaceTest3 10
+   37  java InterfaceTest3 30
+   38  vi InterfaceTest3.java
+   39  javac InterfaceTest3.java
+   40  java InterfaceTest3 5
+   41  vi InterfaceTest3.java
+   42  javac InterfaceTest3.java
+   43  java InterfaceTest3 5
+   44  vi InterfaceTest3.java
+   45  javac InterfaceTest3.java
+   46  javap -p InterfaceTest3
+   47  ll
+   48  javap -p 'InterfaceTest3$OddSequence.class' 
+   49  vi InterfaceTest3.java
+   50  cp -r /SoftDev/Java/ ~/Shared/
+   51  cd ..
+   52  ls
+   53  cd ..
+   54  mkdir Generics
+   55  cd Generics/
+   56  mkdir Basics
+   57  cd Basics/
+   58  vi AutoBoxTest.java
+   59  javac AutoBoxTest.java
+   60  java AutoBoxTest 12
+   61  java AutoBoxTest 21
+   62  vi AutoBoxTest.java
+   63  javac AutoBoxTest.java
+   64  vi AutoBoxTest.java
+   65  javac AutoBoxTest.java
+   66  java AutoBoxTest 12
+   67  java AutoBoxTest 21
+   68  vi AutoBoxTest.java
+   69  javac AutoBoxTest.java
+   70  java AutoBoxTest 12
+   71  java AutoBoxTest 21
+   72  vi AutoBoxTest.java
+   73  javac AutoBoxTest.java
+   74  java AutoBoxTest 21
+   75  java AutoBoxTest 12
+   76  vi AutoBoxTest.java
+   77  javac AutoBoxTest.java
+   78  java AutoBoxTest 12
+   79  java AutoBoxTest 21
+   80  java AutoBoxTest 21 xyz
+   81  java AutoBoxTest 12 xyz
+   82  vi AutoBoxTest.java
+   83  cp AutoBoxTest.java GenMethodTest.java
+   84  vi GenMethodTest.java 
+   85  javac GenMethodTest.java 
+   86* 
+   87  javac GenMethodTest.java 
+   88  java AutoBoxTest 21
+   89  javac GenMethodTest.java 
+   90  java GenMethodTest 21
+   91  java GenMethodTest 12
+   92  vi GenMethodTest.java 
+   93  cp GenMethodTest.java BoundedTypeTest.java
+   94  vi BoundedTypeTest.java 
+   95  javac BoundedTypeTest.java 
+   96  vi BoundedTypeTest.java 
+   97  javac BoundedTypeTest.java 
+   98  java BoundedTypeTest
+   99  vi BoundedTypeTest.java 
+  100  javac BoundedTypeTest.java 
+  101  java BoundedTypeTest
+  102  vi BoundedTypeTest.java 
+  103  javap java.lang.String
+  104  javap java.lang.Double
+  105  cp ../../Language/Inheritance/Interval.java .
+  106  javac Interval.java 
+  107  vi BoundedTypeTest.java 
+  108  javac BoundedTypeTest.java 
+  109  vi Interval.java 
+  110  javac Interval.java 
+  111  javac BoundedTypeTest.java 
+  112  java BoundedTypeTest
+  113  vi GenClassTest.java
+  114  javac GenClassTest.java
+  115  vi GenClassTest.java
+  116  javac GenClassTest.java
+  117  java GenClassTest
+  118  vi GenClassTest.java
+  119  javac GenClassTest.java
+  120  java GenClassTest
+  121  vi GenClassTest.java
+  122  javac GenClassTest.java
+  123  java GenClassTest
+  124  history > cmd-10-10-2020.txt
