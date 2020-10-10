@@ -1,0 +1,84 @@
+    1  cd Java/Fundamentals/Language/Basics/
+    2  ls *.java
+    3  vi MethodTest.java 
+    4  cp MethodTest.java ClassTest1.java
+    5  vi ClassTest1.java
+    6  javac ClassTest1
+    7  javac ClassTest1.java
+    8  vi ClassTest1.java
+    9  javac ClassTest1.java
+   10  java ClassTest1 75000 3
+   11  vi ClassTest1.java
+   12  javac ClassTest1.java
+   13  vi ClassTest1.java
+   14  mv ClassTest1.java ClassTest.java
+   15  rm ClassTest1.class 
+   16  javac ClassTest.java
+   17  cp ClassTest.java EnumTest.java
+   18  vi EnumTest.java
+   19  javac EnumTest.java
+   20  vi EnumTest.java
+   21  javac EnumTest.java
+   22  vi EnumTest.java
+   23  javac EnumTest.java
+   24  java EnumTest 75000 3
+   25  vi EnumTest.java
+   26  javac EnumTest.java
+   27  java EnumTest 75000 3
+   28  vi EnumTest.java
+   29  vi MethodTest.java 
+   30  vi EnumTest.java 
+   31  javac EnumTest.java
+   32  ll *.class
+   33  rm ClassTest1.class
+   34  vi ClassTest.java 
+   35  javac ClassTest.java 
+   36  ls *.class
+   37  vi EnumTest.java 
+   38  cp EnumTest.java ExceptionTest.java
+   39  vi ExceptionTest.java 
+   40  javac ExceptionTest.java 
+   41  java ExceptionTest
+   42  vi ExceptionTest.java 
+   43  javac ExceptionTest.java 
+   44  java ExceptionTest 75000 3
+   45  java ExceptionTest 75000
+   46  java ExceptionTest 5OOOO 4
+   47  vi ExceptionTest.java 
+   48  javac ExceptionTest.java 
+   49  java ExceptionTest 75000 3
+   50  java ExceptionTest 75000
+   51  java ExceptionTest 5OOOO 4
+   52  vi ExceptionTest.java 
+   53  javac ExceptionTest.java 
+   54  java ExceptionTest 75000 3
+   55  java ExceptionTest 75000
+   56  java ExceptionTest 5OOOO 4
+   57  java ExceptionTest 3000 5
+   58  vi ExceptionTest.java 
+   59  javac ExceptionTest.java 
+   60  java ExceptionTest 75000 3
+   61  java ExceptionTest 75000
+   62  java ExceptionTest 5OOOO 4
+   63  java ExceptionTest 3000 5
+   64  vi VarArgsTest.java
+   65  javac VarArgsTest.java
+   66  java VarArgsTest
+   67  vi VarArgsTest.java
+   68  javac VarArgsTest.java
+   69  vi VarArgsTest.java
+   70  javac VarArgsTest.java
+   71  java VarArgsTest
+   72  vi VarArgsTest.java
+   73  javac VarArgsTest.java
+   74  vi VarArgsTest.java
+   75  javac VarArgsTest.java
+   76  java VarArgsTest
+   77  vi VarArgsTest.java
+   78  javac VarArgsTest.java
+   79  java VarArgsTest
+   80  java VarArgsTest 54.3 45.7
+   81  vi VarArgsTest.java
+   82  cd ..
+   83  mkdir Inheritance
+   84  cd Inheritance/
