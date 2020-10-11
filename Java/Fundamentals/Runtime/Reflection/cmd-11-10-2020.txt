@@ -1,0 +1,140 @@
+    2  cd Java/Fundamentals/Generics/Basics/
+    3  ls *.java
+    4  cp GenClassTest.java WildcardTest.java
+    5  vi WildcardTest.java
+    6  javac WildcardTest.java
+    7  java WildcardTest
+    8  vi WildcardTest.java
+    9  javac WildcardTest.java
+   10  java WildcardTest
+   11  vi WildcardTest.java
+   12  javac WildcardTest.java
+   13  vi WildcardTest.java
+   14  javac WildcardTest.java
+   15  vi WildcardTest.java
+   16  javac WildcardTest.java
+   17  java WildcardTest
+   18  vi WildcardTest.java
+   19  javac WildcardTest.java
+   20  java WildcardTest
+   21  javac WildcardTest.java
+   22  vi WildcardTest.java
+   23  javac WildcardTest.java
+   24  java WildcardTest
+   25  vi WildcardTest.java
+   26  javac WildcardTest.java
+   27  java WildcardTest
+   28  vi WildcardTest.java
+   29  javac WildcardTest.java
+   30  java WildcardTest
+   31  javap java.lang.Iterable
+   32  javap java.util.Iterator
+   33  cp GenClassTest.java IterationTest.java
+   34  vi IterationTest.java 
+   35  javac IterationTest.java 
+   36  vi IterationTest.java 
+   37  javac IterationTest.java 
+   38  vi IterationTest.java 
+   39  java IterationTest\
+   40  java IterationTest
+   41  vi IterationTest.java 
+   42  javac IterationTest.java 
+   43  java IterationTest
+   44  cd ..
+   45  mkdir Collections
+   46  cd Collections/
+   47  cp ../Basics/Interval.java .
+   48  vi ListTest1.java
+   49  javac ListTest1.java 
+   50  java ListTest1
+   51  cp ListTest1.java ListTest2.java
+   52  vi ListTest2.java
+   53  javac ListTest2.java
+   54  java ListTest2
+   55  cp ListTest1.java SetTest1.java
+   56  vi SetTest1.java
+   57  javac SetTest1.java
+   58  vi SetTest1.java
+   59  javac SetTest1.java
+   60  java SetTest1
+   61  cp SetTest1.java SetTest2.java
+   62  vi SetTest2.java
+   63  javac SetTest2.java
+   64  java SetTest2
+   65  vi SetTest2.java
+   66  javac SetTest2.java
+   67  java SetTest2
+   68  cp -r /SoftDev/Java/ ~/Shared/
+   69  ls *.java
+   70  cp SetTest1.java MapTest1.java
+   71  vi MapTest1.java
+   72  javac MapTest1.java
+   73  java MapTest1 monday
+   74  vi MapTest1.java
+   75  java MapTest1 friday
+   76  java MapTest1 saturday
+   77  java MapTest1
+   78  cp MapTest1.java MapTest2.java
+   79  vi MapTest2.java 
+   80  javac MapTest2.java 
+   81  java MapTest2 thursday
+   82  java MapTest2 sunday
+   83  java MapTest2
+   84  cp ListTest1.java StreamTest.java
+   85  vi StreamTest.java
+   86  javac StreamTest.java
+   87  java StreamTest
+   88  java StreamTest 300
+   89  java StreamTest 400
+   90  vi StreamTest.java
+   91  javac StreamTest.java
+   92  vi StreamTest.java
+   93  javap java.util.stream.Stream
+   94  vi StreamTest.java
+   95  javac StreamTest.java
+   96  java StreamTest
+   97  java StreamTest 300
+   98  vi StreamTest.java
+   99  cd ..
+  100  mkdir Runtime
+  101  cd Runtime/
+  102  mkdir Reflection
+  103  cd Reflection/
+  104  cp -r ../../Language/Inheritance/payroll/ .
+  105  cp ../../Language/Inheritance/Interval.java .
+  106  javac Interval.java 
+  107  vi ObjAccessTest.java
+  108  javac ObjAccessTest.java
+  109  java ObjAccessTest
+  110  vi ObjAccessTest.java
+  111  javac ObjAccessTest.java
+  112  vi ObjAccessTest.java
+  113  javac ObjAccessTest.java
+  114  java ObjAccessTest
+  115  vi ObjAccessTest.java
+  116  javac ObjAccessTest.java
+  117  java ObjAccessTest
+  118  vi ObjAccessTest.java
+  119  javac ObjAccessTest.java
+  120  java ObjAccessTest
+  121  vi ObjAccessTest.java
+  122  javac ObjAccessTest.java
+  123  java ObjAccessTest
+  124  vi ObjAccessTest.java
+  125  javac ObjAccessTest.java
+  126  vi ObjAccessTest.java
+  127  javac ObjAccessTest.java
+  128  vi ObjAccessTest.java
+  129  javac ObjAccessTest.java
+  130  java ObjAccessTest
+  131  vi ObjAccessTest.java
+  132  javac ObjAccessTest.java
+  133  java ObjAccessTest
+  134  vi ObjAccessTest.java
+  135  vi Interval.java 
+  136  javac Interval.java 
+  137  java ObjAccessTest
+  138  vi Interval.java 
+  139  javac Interval.java 
+  140  java ObjAccessTest
+  141  cp -r /SoftDev/Java/ ~/Shared/
