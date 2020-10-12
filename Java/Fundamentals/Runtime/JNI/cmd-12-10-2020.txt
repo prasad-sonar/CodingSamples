@@ -1,0 +1,130 @@
+    1  cd Java/Fundamentals/Runtime/Reflection/
+    2  ls *.java
+    3  mkdir src
+    4  vi src/BusinessLoan.java
+    5  vi src/HomeLoan.java
+    6  vi src/PersonalLoan.java
+    7  javac -d . src/*.java
+    8  vi src/BusinessLoan.java
+    9  javac -d . src/*.java
+   10  vi EarlyBindTest.java
+   11  javac EarlyBindTest.java
+   12  java EarlyBindTest 500000 BusinessLoan
+   13  java EarlyBindTest 500000 HomeLoan
+   14  java EarlyBindTest 500000 PersonalLoan
+   15  java EarlyBindTest 500000 CarLoan
+   16  vi src/CarLoan.java
+   17  javac -d . src/CarLoan.java 
+   18  java EarlyBindTest 500000 CarLoan
+   19  vi EarlyBindTest.java
+   20  rm finance/CarLoan.class 
+   21  vi EarlyBindTest.java
+   22  vi src/Loan.java
+   23  vi src/BusinessLoan.java 
+   24  vi src/PersonalLoan.java 
+   25  vi src/HomeLoan.java 
+   26  vi src/CarLoan.java
+   27  javac -d . src/*.java
+   28  rm finance/CarLoan.class 
+   29  vi EarlyBindTest.java 
+   30  javap java.lang.Class
+   31  javap java.lang.reflect.Constructor
+   32  vi EarlyBindTest.java 
+   33  javac EarlyBindTest.java 
+   34  java EarlyBindTest 500000 BusinessLoan
+   35  java EarlyBindTest 500000 HomeLoan
+   36  java EarlyBindTest 500000 PersonalLoan
+   37  java EarlyBindTest 500000 CarLoan
+   38  javac -d . src/CarLoan.java 
+   39  java EarlyBindTest 500000 CarLoan
+   40  javac -d . src/HomeLoan.java 
+   41  vi src/HomeLoan.java 
+   42  vi src/PersonalLoan.java 
+   43  cp EarlyBindTest.java LateBindTest.java
+   44  vi LateBindTest.java
+   45  javac LateBindTest.java
+   46  java LateBindTest 500000 BusinessLoan interestRate
+   47  java LateBindTest 500000 HomeLoan interestRate
+   48  java LateBindTest 500000 HomeLoan interestRateForWomen
+   49*  src/HomeLoan.java 
+   50  vi src/HomeLoan.java 
+   51  javap finance.HomeLoan
+   52  javac -d . src/*.java 
+   53  javap finance.HomeLoan
+   54  java LateBindTest 500000 HomeLoan interestRateForWomen
+   55  java LateBindTest 500000 HomeLoan interestRate
+   56  java LateBindTest 500000 HomeLoan interestRateWomen
+   57  java LateBindTest 500000 HomeLoan interestRateForWomen
+   58  java LateBindTest 500000 PersonalLoan interestRate
+   59  java LateBindTest 500000 PersonalLoan interestRateForEmployees
+   60  java LateBindTest 500000 CarLoan interestRate
+   61  java LateBindTest 500000 CarLoan interestRateForEmployees
+   62  vi LateBindTest.java
+   63  vi src/MaxDuration.java
+   64  javac -d . src/MaxDuration.java
+   65  vi src/BusinessLoan.java 
+   66  vi src/HomeLoan.java 
+   67  javac -d . src/HomeLoan.java 
+   68  vi src/HomeLoan.java 
+   69  javac -d . src/HomeLoan.java 
+   70  vi src/HomeLoan.java 
+   71  javac -d . src/HomeLoan.java 
+   72  cp EarlyBindTest.java AnnotationTest.java
+   73  vi AnnotationTest.java
+   74  javac AnnotationTest.java
+   75  java AnnotationTest 500000 PersonalLoan
+   76  java AnnotationTest 500000 BusinessLoan
+   77  javac -d . src/*.java
+   78  java AnnotationTest 500000 BusinessLoan
+   79  java AnnotationTest 500000 HomeLoan
+   80  vi src/MaxDuration.java
+   81  vi src/HomeLoan.java 
+   82  cp -r /SoftDev/Java/ ~/Shared/
+   83  cp ../../Language/Inheritance/InterfaceTest1.class .
+   84  java InterfaceTest1
+   85  java -cp .:../../Language/Inheritance/ InterfaceTest1
+   86  java InterfaceTest1
+   87  cd ../../Language/Inheritance/
+   88  ll
+   89  jar cf banklib.jar banking/
+   90  ll
+   91  jar tf banklib.jar 
+   92  mv banklib.jar ../../Runtime/Reflection/
+   93  cd ../../Runtime/Reflection/
+   94  java InterfaceTest1
+   95  java -cp .:banklib.jar InterfaceTest1
+   96  java InterfaceTest1
+   97  export CLASSPATH=.:banklib.jar 
+   98  java InterfaceTest1
+   99  unset CLASSPATH
+  100  java InterfaceTest1
+  101  cd..
+  102  cd ..
+  103  mkdir JNI
+  104  cd JNI/
+  105  vi NativeMethodTest.java
+  106  javac NativeMethodTest.java
+  107  java NativeMethodTest 70 56
+  108  export CPATH=/usr/java/jdk-12.0.1/include/:/usr/java/jdk-12.0.1/include/linux/
+  109  vi nmt.c
+  110  cc -shared -fPIC -o libnmt.so nmt.c 
+  111  ll
+  112  java NativeMethodTest 70 56
+  113  vi NativeMethodTest.java 
+  114* javac NativeMethodTest.j
+  115  java NativeMethodTest 70 56
+  116  java -Djava.library.path=. NativeMethodTest 70 56
+  117  export LD_LIBRARY_PATH=.
+  118  java NativeMethodTest 70 56
+  119  vi NativeMethodTest.java 
+  120  vi nmt.c
+  121  vi StringAccessTest.java
+  122  javac -h . StringAccessTest.java
+  123  ll
+  124  vi StringHelper.h 
+  125  vi strh.cpp
+  126  c++ -shared -fPIC -o libstrh.so strh.cpp 
+  127  vi strh.cpp
+  128  c++ -shared -fPIC -o libstrh.so strh.cpp 
+  129  java StringAccessTest monday
+  130  vi strh.cpp
