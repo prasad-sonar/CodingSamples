@@ -1,0 +1,115 @@
+    3  ls *.java
+    4  vi ArrayAccessTest.java
+    5  export CPATH=/usr/java/jdk-12.0.1/include/:/usr/java/jdk-12.0.1/include/linux/
+    6  export LD_LIBRARY_PATH=.
+    7  javac -h . ArrayAccessTest.java 
+    8  vi ArrayHelper.h 
+    9  vi arrh.cpp
+   10  c++ -shared -fPIC -o libarrh.so arrh.cpp 
+   11  vi arrh.cpp
+   12  c++ -shared -fPIC -o libarrh.so arrh.cpp 
+   13  java ArrayAccessTest
+   14  vi ArrayAccessTest.java
+   15  javac -h . ArrayAccessTest.java 
+   16  java ArrayAccessTest
+   17  cp ~/Shared/Support/java/legacy/*.* .
+   18  ll
+   19  vi taxation.h 
+   20  vi ObjectAccessTest.java
+   21  javac -h . ObjectAccessTest.java
+   22  vi ObjectAccessTest.java
+   23  javac -h . ObjectAccessTest.java
+   24  vi LegacyTaxPayer.h 
+   25  vi ltaxp.cpp
+   26  vi LegacyTaxPayer.h 
+   27  vi ltaxp.cpp
+   28  javap -p -s LegacyTaxPayer
+   29  vi ltaxp.cpp
+   30  vi ObjectAccessTest.java
+   31  vi ltaxp.cpp
+   32  vi taxation.h 
+   33  vi ltaxp.cpp
+   34  c++ -shared -fPIC -o libltaxp.so ltaxp.cpp taxation.o
+   35  java ObjectAccessTest 300000 25
+   36  java ObjectAccessTest 3000000 25
+   37  java ObjectAccessTest 3000000 65
+   38  java ObjectAccessTest 3000000 85
+   39  cd ../..
+   40  mkdir Platform
+   41  cd Platform/
+   42  mkdir Concurrency
+   43  cd Concurrency/
+   44  vi Worker.java
+   45  javac Worker.java
+   46  vi Worker.java
+   47  javac Worker.java
+   48  vi ThreadTest.java
+   49  javac ThreadTest.java
+   50  java ThreadTest
+   51  vi ThreadTest.java
+   52  java ThreadTest 70
+   53  vi ThreadTest.java
+   54  javac ThreadTest.java
+   55  vi ThreadTest.java
+   56  javac ThreadTest.java
+   57  java ThreadTest
+   58  vi ThreadTest.java
+   59  javac ThreadTest.java
+   60  vi ThreadTest.java
+   61  javac ThreadTest.java
+   62  java ThreadTest
+   63  vi ThreadTest.java
+   64  java ThreadTest 70
+   65  vi ThreadTest.java
+   66  javac ThreadTest.java
+   67  java ThreadTest
+   68  java ThreadTest 70
+   69  java ThreadTest 80
+   70  vi ThreadTest.java
+   71  history > cmd-12-10-2020.txt
+   72  vi cmd-12-10-2020.txt 
+   73  cp -r /SoftDev/Java/ ~/Shared/
+   74  vi ThreadSyncTest.java
+   75  javac ThreadSyncTest.java
+   76  java ThreadSyncTest
+   77  vi ThreadSyncTest.java
+   78  javac ThreadSyncTest.java
+   79  java ThreadSyncTest
+   80  vi ThreadSyncTest.java
+   81  javac ThreadSyncTest.java
+   82  java ThreadSyncTest
+   83  vi ThreadSyncTest.java
+   84  javac ThreadSyncTest.java
+   85  vi ThreadCoordTest.java
+   86  javac ThreadCoordTest.java 
+   87  java ThreadCoordTest
+   88  vi ThreadCoordTest.java
+   89  javac ThreadCoordTest.java 
+   90  java ThreadCoordTest
+   91  vi ThreadCoordTest.java
+   92  javac ThreadCoordTest.java 
+   93  java ThreadCoordTest
+   94  vi ThreadCoordTest.java
+   95  javac ThreadCoordTest.java 
+   96  java ThreadCoordTest
+   97  javap java.lang.Object
+   98  vi ThreadPoolTest.java
+   99  javac ThreadPoolTest.java
+  100  vi ThreadPoolTest.java
+  101  javac ThreadPoolTest.java
+  102  java ThreadPoolTest
+  103  vi ThreadPoolTest.java
+  104  javac ThreadPoolTest.java
+  105  vi ThreadPoolTest.java
+  106  javac ThreadPoolTest.java
+  107  java ThreadPoolTest
+  108  vi ThreadPoolTest.java
+  109  javac ThreadPoolTest.java
+  110  java ThreadPoolTest
+  111  vi ThreadPoolTest.java
+  112  javac ThreadPoolTest.java
+  113  java ThreadPoolTest
+  114  vi ThreadPoolTest.java
+  115  javac ThreadPoolTest.java
+  116  java ThreadPoolTest
+  117  vi ThreadPoolTest.java
