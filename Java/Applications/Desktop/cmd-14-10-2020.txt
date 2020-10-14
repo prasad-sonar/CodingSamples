@@ -1,0 +1,90 @@
+    2  cd Java/Fundamentals/Platform/Concurrency/
+    3  ls *.java
+    4  vi ParallelStreamTest.java
+    5  javac ParallelStreamTest.java
+    6  java ParallelStreamTest
+    7  vi ParallelStreamTest.java
+    8  javac ParallelStreamTest.java
+    9  java ParallelStreamTest
+   10  cp ParallelStreamTest.class ~/Shared/
+   11  cp Worker.class ~/Shared/
+   12  vi ParallelStreamTest.java
+   13  cd ..
+   14  mkdir Persistence
+   15  cd Persistence/
+   16  vi FileStreamTest.java
+   17  javac FileStreamTest.java
+   18  cp FileStreamTest.java data1.txt
+   19  vi data1.txt 
+   20  java FileStreamTest data1.txt data2.txt
+   21  ll
+   22  ll data2.txt 
+   23  vi data2.txt 
+   24  java data2.txt data3.txt
+   25  java FileStreamTest data2.txt data3.txt
+   26  vi data3.txt 
+   27  vi FileStreamTest.java
+   28  vi FileChannelTest.java
+   29  javap java.nio.FileLock
+   30  javap java.nio.channels.FileLock
+   31  vi FileChannelTest.java
+   32  javac FileChannelTest.java
+   33  vi FileChannelTest.java
+   34  vi data1.txt 
+   35  java FileChannelTest data1.txt 
+   36  vi data1.txt 
+   37  java FileChannelTest data1.txt 
+   38  vi data1.txt 
+   39  vi DataIOTest.java
+   40  javac DataIOTest.java
+   41  java DataIOTest apple 21.95 24000
+   42  java DataIOTest
+   43  vi item.dat 
+   44  cp DataIOTest.java TextIOTest.java
+   45  vi TextIOTest.java 
+   46  javac TextIOTest.java 
+   47  java TextIOTest apple 21.95 24000
+   48  java TextIOTest
+   49  vi item.txt 
+   50  ll item.*
+   51  cp -r /SoftDev/Java/ ~/Shared/
+   52  ls *.java
+   53  mkdir src
+   54  cp ~/Shared/Support/java/code/hr/*.java src/
+   55  ll src/
+   56  vi src/Employee.java 
+   57  vi src/Department.java 
+   58  javac -d . src/*.java
+   59  vi src/Department.java 
+   60  vi src/Employee.java 
+   61  javac -d . src/*.java
+   62  vi ObjSerTest.java
+   63  javac ObjSerTest.java
+   64  vi src/Employee.java 
+   65  vi ObjSerTest.java
+   66  javac ObjSerTest.java
+   67  java ObjSerTest Sales
+   68  ll
+   69  java ObjSerTest
+   70  java
+   71  cd ../..
+   72  cd ..
+   73  mkdir -p Applications/Desktop
+   74  cd Applications/Desktop
+   75  vi AWTPlainTest.java
+   76  javac AWTPlainTest.java
+   77  java AWTPlainTest
+   78  vi AWTPlainTest.java
+   79  javac AWTPlainTest.java
+   80  vi AWTPlainTest.java
+   81  javac AWTPlainTest.java
+   82  vi AWTPlainTest.java
+   83  vi ../../Fundamentals/Language/Inheritance/src/SalesPerson.java 
+   84  vi AWTPlainTest.java
+   85  javac AWTPlainTest.java
+   86  vi AWTPlainTest.java
+   87  javac AWTPlainTest.java
+   88  java AWTPlainTest
+   89  vi AWTPlainTest.java
+   90  java AWTPlainTest
+   91  vi AWTPlainTest.java
