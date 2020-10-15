@@ -1,0 +1,28 @@
+    2  cd ..
+    3  ls
+    4  mkdir Distributed
+    5  cd Distributed/
+    6  vi ServerSocketTest.java
+    7  javac ServerSocketTest.java
+    8  vi ServerSocketTest.java
+    9  javac ServerSocketTest.java
+   10  java ServerSocketTest 
+   11  java ServerSocketTest &
+   12  java ServerSocketTest 
+   13  telnet localhost 2055
+   14  cp ServerSocketTest*.class ~/Shared
+   15  kill 25641
+   16  telnet localhost 2055
+   17  telnet ioe-cdac-226 2055 
+   18  vi ServerSocketTest.java
+   19  telnet ioe-cdac-226 2055 
+   20  vi ServerSocketTest.java 
+   21  javac ServerSocketTest.java 
+   22  cp ServerSocketTest*.class ~/Shared
+   23  telnet ioe-cdac-226 2055 
+   24  vi ServerSocketTest.java 
+   25  javac ServerSocketTest.java 
+   26  vi ServerSocketTest.java 
+   27  javac ServerSocketTest.java 
+   28  cp ServerSocketTest*.class ~/Shared
+   29  telnet ioe-cdac-226 2055 
